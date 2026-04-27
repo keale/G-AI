@@ -59,7 +59,7 @@ jobs:
           $vipcFile = "$env:GITHUB_WORKSPACE\src\G-AI.vipc" 
           
           Write-Host "Installing VI Package Configuration dependencies..."
-          vipm install "$vipcFile"
+          vipm install "$vipcFile" --labview-version 2020
           
           if ($LASTEXITCODE -ne 0) {
             Write-Error "VIPM CLI failed to install dependencies with exit code $LASTEXITCODE."

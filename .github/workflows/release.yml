@@ -25,7 +25,7 @@ jobs:
       - name: Run Caraya Test Suite
         run: |
           Write-Host "Starting LabVIEW CLI to run tests..."
-          $testVI = "$env:GITHUB_WORKSPACE\tests\Run G-AI Tests CICD.vi"
+          $testVI = "$env:GITHUB_WORKSPACE\tests\Run_G-AI_Tests_CLI.vi"
           
           # Path to LabVIEW 2020 executable
           $lv2020Path = "C:\Program Files\National Instruments\LabVIEW 2020\LabVIEW.exe"

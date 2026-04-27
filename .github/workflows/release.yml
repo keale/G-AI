@@ -56,17 +56,16 @@ jobs:
       - name: Apply Dependencies via VIPM CLI
         timeout-minutes: 15
         run: |
-          # UPDATE THIS PATH to point to your actual .vipc file in the repo
           $vipcFile = "$env:GITHUB_WORKSPACE\src\G-AI.vipc" 
           
-          Write-Host "Applying VI Package Configuration dependencies..."
-          vipm apply "$vipcFile"
+          Write-Host "Installing VI Package Configuration dependencies..."
+          vipm install "$vipcFile"
           
           if ($LASTEXITCODE -ne 0) {
-            Write-Error "VIPM CLI failed to apply dependencies with exit code $LASTEXITCODE."
+            Write-Error "VIPM CLI failed to install dependencies with exit code $LASTEXITCODE."
             exit 1
           }
-          Write-Host "Dependencies applied successfully!"
+          Write-Host "Dependencies installed successfully!"
 
       - name: Build VI Package via VIPM CLI
         timeout-minutes: 25 

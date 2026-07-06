@@ -1,0 +1,115 @@
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_Build Content.vi (jg_mcp_MCP Server.lvlib:jg_mcp_Build Content.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_Build Content.vi\199d9bb0-0593-4c5b-b65b-baf2409010c0.vi (jg_mcp_MCP Server.lvlib:jg_mcp_Build Content.vi:Instance:199d9bb0-0593-4c5b-b65b-baf2409010c0.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_Build Picture JSON.vi (jg_mcp_MCP Server.lvlib:jg_mcp_Build Picture JSON.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_Build Picture JSON.vi\a662b823-3d79-4c18-8875-22636ac4371e.vi (jg_mcp_MCP Server.lvlib:jg_mcp_Build Picture JSON.vi:Instance:a662b823-3d79-4c18-8875-22636ac4371e.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_Build Response Error.vi (jg_mcp_MCP Server.lvlib:jg_mcp_Build Response Error.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_Build Response Error.vi\8a0140cc-e067-4e92-8974-54f7e9800590.vi (jg_mcp_MCP Server.lvlib:jg_mcp_Build Response Error.vi:Instance:8a0140cc-e067-4e92-8974-54f7e9800590.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_Build Response Error.vi\8ee560a3-2e04-4350-9390-df7ad8ca5a93.vi (jg_mcp_MCP Server.lvlib:jg_mcp_Build Response Error.vi:Instance:8ee560a3-2e04-4350-9390-df7ad8ca5a93.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_Build Response Error.vi\aaa441bb-6e8c-4ec0-8711-827d95f5656f.vi (jg_mcp_MCP Server.lvlib:jg_mcp_Build Response Error.vi:Instance:aaa441bb-6e8c-4ec0-8711-827d95f5656f.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_Build Response Error.vi\e71c233f-4ea6-4aba-9a41-f999e1cb3491.vi (jg_mcp_MCP Server.lvlib:jg_mcp_Build Response Error.vi:Instance:e71c233f-4ea6-4aba-9a41-f999e1cb3491.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_Build Response Message.vi (jg_mcp_MCP Server.lvlib:jg_mcp_Build Response Message.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_Build Response Message.vi\aaa441bb-6e8c-4ec0-8711-827d95f5656f.vi (jg_mcp_MCP Server.lvlib:jg_mcp_Build Response Message.vi:Instance:aaa441bb-6e8c-4ec0-8711-827d95f5656f.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_Build Response Message.vi\e71c233f-4ea6-4aba-9a41-f999e1cb3491.vi (jg_mcp_MCP Server.lvlib:jg_mcp_Build Response Message.vi:Instance:e71c233f-4ea6-4aba-9a41-f999e1cb3491.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_Build Text JSON for MCP.vi (jg_mcp_MCP Server.lvlib:jg_mcp_Build Text JSON for MCP.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_Call VI.vi\0616d323-15ae-486a-97f1-8f6250f713f5.vi (jg_mcp_MCP Server.lvlib:jg_mcp_Call VI.vi:Instance:0616d323-15ae-486a-97f1-8f6250f713f5.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_Call VI.vi\1521ffbb-a9e1-42f7-9593-99dcb95d3f2d.vi (jg_mcp_MCP Server.lvlib:jg_mcp_Call VI.vi:Instance:1521ffbb-a9e1-42f7-9593-99dcb95d3f2d.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_Call VI.vi\4168f984-ecba-4b3e-98aa-6b303e1fc845.vi (jg_mcp_MCP Server.lvlib:jg_mcp_Call VI.vi:Instance:4168f984-ecba-4b3e-98aa-6b303e1fc845.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_Call VI.vi\4c506424-2eda-4aef-885b-07ff0af22ab5.vi (jg_mcp_MCP Server.lvlib:jg_mcp_Call VI.vi:Instance:4c506424-2eda-4aef-885b-07ff0af22ab5.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_Call VI.vi\522b1827-3836-432c-b8b2-8f0c55f6feb7.vi (jg_mcp_MCP Server.lvlib:jg_mcp_Call VI.vi:Instance:522b1827-3836-432c-b8b2-8f0c55f6feb7.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_Call VI.vi\543640a1-fb1b-49d2-854d-672a7e8b1deb.vi (jg_mcp_MCP Server.lvlib:jg_mcp_Call VI.vi:Instance:543640a1-fb1b-49d2-854d-672a7e8b1deb.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_Call VI.vi\7e5c8ca1-4dad-4b78-a054-e5ecb6fe69da.vi (jg_mcp_MCP Server.lvlib:jg_mcp_Call VI.vi:Instance:7e5c8ca1-4dad-4b78-a054-e5ecb6fe69da.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_Call VI.vi\804d9a9c-1e56-403f-8063-8c6c0e8f0982.vi (jg_mcp_MCP Server.lvlib:jg_mcp_Call VI.vi:Instance:804d9a9c-1e56-403f-8063-8c6c0e8f0982.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_Call VI.vi\8b9ff06f-0ef6-44a3-acf4-59db1b6b1b31.vi (jg_mcp_MCP Server.lvlib:jg_mcp_Call VI.vi:Instance:8b9ff06f-0ef6-44a3-acf4-59db1b6b1b31.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_Call VI.vi\989a8bd6-30de-4821-a40a-8a1d239f579d.vi (jg_mcp_MCP Server.lvlib:jg_mcp_Call VI.vi:Instance:989a8bd6-30de-4821-a40a-8a1d239f579d.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_Call VI.vi\9d91f7f2-9bb6-4ecb-af38-d838d0deb514.vi (jg_mcp_MCP Server.lvlib:jg_mcp_Call VI.vi:Instance:9d91f7f2-9bb6-4ecb-af38-d838d0deb514.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_Call VI.vi\b3e15f38-d5ce-4610-9e48-04c139622bf1.vi (jg_mcp_MCP Server.lvlib:jg_mcp_Call VI.vi:Instance:b3e15f38-d5ce-4610-9e48-04c139622bf1.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_Call VI.vi\b8448edb-b4b5-47d7-90b3-aea56ff88df2.vi (jg_mcp_MCP Server.lvlib:jg_mcp_Call VI.vi:Instance:b8448edb-b4b5-47d7-90b3-aea56ff88df2.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_Call VI.vi\bf9e786f-d1ab-471f-a68b-f7992835e449.vi (jg_mcp_MCP Server.lvlib:jg_mcp_Call VI.vi:Instance:bf9e786f-d1ab-471f-a68b-f7992835e449.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_Call VI.vi\e41d13a5-b533-4b14-93c6-4ba0c6d1a2bf.vi (jg_mcp_MCP Server.lvlib:jg_mcp_Call VI.vi:Instance:e41d13a5-b533-4b14-93c6-4ba0c6d1a2bf.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_Call VI.vi\fd11c23e-f9de-4047-abc2-5cee66b205fd.vi (jg_mcp_MCP Server.lvlib:jg_mcp_Call VI.vi:Instance:fd11c23e-f9de-4047-abc2-5cee66b205fd.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_Convert Image To Base64.vi (jg_mcp_MCP Server.lvlib:jg_mcp_Convert Image To Base64.vi)
+    JDP Science Common Utilities by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_Get ID from JSON.vi (jg_mcp_MCP Server.lvlib:jg_mcp_Get ID from JSON.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_Get ID from JSON.vi\c608c32f-0981-4f1b-93d0-fc5e6564b6e5.vi (jg_mcp_MCP Server.lvlib:jg_mcp_Get ID from JSON.vi:Instance:c608c32f-0981-4f1b-93d0-fc5e6564b6e5.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_Handle Server Request.vi (jg_mcp_MCP Server.lvlib:jg_mcp_Handle Server Request.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_Handle Server Request.vi\17ff933e-622e-44bb-904e-4e6adce09461.vi (jg_mcp_MCP Server.lvlib:jg_mcp_Handle Server Request.vi:Instance:17ff933e-622e-44bb-904e-4e6adce09461.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_initialize.vi\098ae85c-509d-4dd3-b755-49cb06aac0fc.vi (jg_mcp_MCP Server.lvlib:jg_mcp_initialize.vi:Instance:098ae85c-509d-4dd3-b755-49cb06aac0fc.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_prompts get.vi (jg_mcp_MCP Server.lvlib:jg_mcp_prompts get.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_prompts get.vi\14c59c94-2525-420a-b2b2-c4c9036dcf4d.vi (jg_mcp_MCP Server.lvlib:jg_mcp_prompts get.vi:Instance:14c59c94-2525-420a-b2b2-c4c9036dcf4d.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_prompts get.vi\36169f03-25f9-42a4-b558-7da57aa14dd0.vi (jg_mcp_MCP Server.lvlib:jg_mcp_prompts get.vi:Instance:36169f03-25f9-42a4-b558-7da57aa14dd0.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_prompts get.vi\7d3bd472-2036-4192-96a4-2be547f36210.vi (jg_mcp_MCP Server.lvlib:jg_mcp_prompts get.vi:Instance:7d3bd472-2036-4192-96a4-2be547f36210.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_prompts list.vi (jg_mcp_MCP Server.lvlib:jg_mcp_prompts list.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_prompts list.vi\97a80f9a-628e-4717-95e0-87c27c4c3e74.vi (jg_mcp_MCP Server.lvlib:jg_mcp_prompts list.vi:Instance:97a80f9a-628e-4717-95e0-87c27c4c3e74.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_resources list.vi (jg_mcp_MCP Server.lvlib:jg_mcp_resources list.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_resources list.vi\add47c8a-c97f-485a-bac8-35d996f0c1d8.vi (jg_mcp_MCP Server.lvlib:jg_mcp_resources list.vi:Instance:add47c8a-c97f-485a-bac8-35d996f0c1d8.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_resources read.vi (jg_mcp_MCP Server.lvlib:jg_mcp_resources read.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+    JDP Science Common Utilities by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_resources read.vi\26a76da7-6ace-4620-8e47-f7e66d57a6fb.vi (jg_mcp_MCP Server.lvlib:jg_mcp_resources read.vi:Instance:26a76da7-6ace-4620-8e47-f7e66d57a6fb.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_resources read.vi\53053a3e-d98d-4b1b-9ea2-8aa51a7e4ea3.vi (jg_mcp_MCP Server.lvlib:jg_mcp_resources read.vi:Instance:53053a3e-d98d-4b1b-9ea2-8aa51a7e4ea3.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_resources read.vi\a3b2ea05-9a55-4a6d-83fc-f98ed783a032.vi (jg_mcp_MCP Server.lvlib:jg_mcp_resources read.vi:Instance:a3b2ea05-9a55-4a6d-83fc-f98ed783a032.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_resources read.vi\e0fbd291-d89e-42a3-8ed1-33df253c9476.vi (jg_mcp_MCP Server.lvlib:jg_mcp_resources read.vi:Instance:e0fbd291-d89e-42a3-8ed1-33df253c9476.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_resources read.vi\fa2b7325-da3b-4faf-97be-a89ba966e5b3.vi (jg_mcp_MCP Server.lvlib:jg_mcp_resources read.vi:Instance:fa2b7325-da3b-4faf-97be-a89ba966e5b3.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_tool call.vi (jg_mcp_MCP Server.lvlib:jg_mcp_tool call.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_tool call.vi\affbca46-cbce-409b-bfea-a62add01a465.vi (jg_mcp_MCP Server.lvlib:jg_mcp_tool call.vi:Instance:affbca46-cbce-409b-bfea-a62add01a465.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_tool list.vi (jg_mcp_MCP Server.lvlib:jg_mcp_tool list.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_tool list.vi\072bd452-694b-4df1-bacb-9596dea07f88.vi (jg_mcp_MCP Server.lvlib:jg_mcp_tool list.vi:Instance:072bd452-694b-4df1-bacb-9596dea07f88.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_tool list.vi\457f7257-2385-409f-8748-2a948732079c.vi (jg_mcp_MCP Server.lvlib:jg_mcp_tool list.vi:Instance:457f7257-2385-409f-8748-2a948732079c.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_tool list.vi\501006b8-601a-4e2b-b374-4fa6edd3fcfa.vi (jg_mcp_MCP Server.lvlib:jg_mcp_tool list.vi:Instance:501006b8-601a-4e2b-b374-4fa6edd3fcfa.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_tool list.vi\67376cc4-96dd-428d-b57d-13d5d9c2dcda.vi (jg_mcp_MCP Server.lvlib:jg_mcp_tool list.vi:Instance:67376cc4-96dd-428d-b57d-13d5d9c2dcda.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\vi.lib\jgoebel\LabVIEW MCP Server SDK\src\MCP Server\jg_mcp_tool list.vi\8dc8bba5-80dd-4b6d-92c4-f894be10601f.vi (jg_mcp_MCP Server.lvlib:jg_mcp_tool list.vi:Instance:8dc8bba5-80dd-4b6d-92c4-f894be10601f.vi)
+    JSONtext by JDP Science support for LabVIEW 2020 is missing and is referenced by the following VIs:

@@ -1,0 +1,3 @@
+[submodule "Submodules/LabVIEW-MCP-Server-Toolkit"]
+	path = Submodules/LabVIEW-MCP-Server-Toolkit
+	url = git@github.com:keale/LabVIEW-MCP-Server-Toolkit.git

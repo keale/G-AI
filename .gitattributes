@@ -1,0 +1,31 @@
+# Default: text-Dateien mit LF normalisieren
+* text=auto eol=lf
+
+# LabVIEW Binärdateien
+*.vi        binary
+*.vim       binary
+*.vit       binary
+*.ctl       binary
+*.ctt       binary
+*.lvproj    binary
+*.lvclass   binary
+*.lvlib     binary
+*.lvlps     binary
+*.aliases   binary
+*.xnode     binary
+*.xcontrol  binary
+*.rtm       binary
+*.llb       binary
+
+# LabVIEW Text/XML-Dateien (eol=lf beibehalten)
+*.mnu       text eol=lf
+*.uicng     text eol=lf
+*.bs        text eol=lf
+
+# Sonstige Binärdateien
+*.dll       binary
+*.exe       binary
+*.pdf       binary
+*.docx      binary
+*.DAT       binary
+*.dat       binary

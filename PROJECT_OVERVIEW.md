@@ -26,7 +26,7 @@ G-AI.lvproj
 │   ├── get structure diagram.vi
 │   ├── create new vi.vi / add object to vi.vi / add subvi to vi.vi
 │   ├── create control.vi / connect objects.vi / rename object.vi / set property.vi
-│   ├── cleanup vi.vi / close vi.vi
+│   ├── cleanup vi.vi / close vi.vi / get broken vi list.vi
 └── Dependencies (vi.lib)
     ├── Delacor QMH classes       DQMH framework (Message Queue, Module Admin)
     ├── jg_mcp MCP Server.lvlib   generic MCP/JSON-RPC server (from the submodule)
@@ -85,6 +85,7 @@ All tools follow the standard LabVIEW error pattern (`error in` → `error out`)
 | `get_available_properties` | Available property IDs of a property node | `propertynode_id` → `All Supported Properties` |
 | `get_object_terminals` | Terminal names, indices, types of a node/subVI | `object_id` → terminal list |
 | `get_structure_diagram` | Reference to a sub-diagram of a structure (loop/case) | `structure_id`, `index` → `diagram_id` |
+| `get_broken_vi_list` | Lists VIs currently broken in the LabVIEW environment, via the Application class's Get Broken VI List method | – → `Broken VI List` |
 
 ### Write / Code Generation
 

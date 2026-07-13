@@ -1,2 +1,4 @@
 builds/
 src/.G-AI.UserState/
+/src/*.aliases
+/src/*.lvlps

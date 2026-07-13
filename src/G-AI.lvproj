@@ -29,6 +29,7 @@
 			<Item Name="connect objects.vi" Type="VI" URL="../tools/connect objects.vi"/>
 			<Item Name="create control.vi" Type="VI" URL="../tools/create control.vi"/>
 			<Item Name="create new vi.vi" Type="VI" URL="../tools/create new vi.vi"/>
+			<Item Name="get available methods.vi" Type="VI" URL="../tools/get available methods.vi"/>
 			<Item Name="get available objects.vi" Type="VI" URL="../tools/get available objects.vi"/>
 			<Item Name="get available properties.vi" Type="VI" URL="../tools/get available properties.vi"/>
 			<Item Name="get control.vi" Type="VI" URL="../tools/get control.vi"/>
@@ -38,8 +39,10 @@
 			<Item Name="get structure diagram.vi" Type="VI" URL="../tools/get structure diagram.vi"/>
 			<Item Name="get vi details.vi" Type="VI" URL="../tools/get vi details.vi"/>
 			<Item Name="rename object.vi" Type="VI" URL="../tools/rename object.vi"/>
+			<Item Name="set invoke node.vi" Type="VI" URL="../tools/set invoke node.vi"/>
 			<Item Name="set property.vi" Type="VI" URL="../tools/set property.vi"/>
 		</Item>
+		<Item Name="broken.lvclass" Type="LVClass" URL="../../tests/broken.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>

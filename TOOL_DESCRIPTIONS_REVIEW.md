@@ -20,6 +20,24 @@ Legend: 🔴 needs a fix (wrong/misleading/incomplete) · 🟡 minor polish (wor
 
 ---
 
+## 🔴 `set invoke node.vi` / `get available methods.vi` — `method_name` must be the "Unique ID string", not the "Data name"
+
+**Tested directly** by placing an Invoke Node, wiring an `Application Refnum` into it, and calling both tools:
+- `get_available_methods` returns each method as an object with four fields, e.g. `{"Unique ID string": "7d5", "Data name": "Mass Compile", "Short name (localized)": "Mass Compile", "Long name (localized)": "Mass Compile"}`.
+- `set_invoke_node(method_name="Mass Compile", allow_alternate_names=false)` → **fails** with error 1077.
+- `set_invoke_node(method_name="Mass Compile", allow_alternate_names=true)` → succeeds (fuzzy fallback match).
+- `set_invoke_node(method_name="7d5", allow_alternate_names=false)` → **succeeds directly**, no fallback needed.
+
+**Problem:** the current `set_invoke_node` description's examples (`"Reload"`, `"Mass Compile"`, `"Get Broken VI List"`) are `Data name`/display-text values, which implies those strings are the exact programmatic ID — they're not reliably. The true exact-match key is the `Unique ID string` field. As written, an AI agent following the description literally will hit error 1077 on the first try and only succeed by accident once it falls back to `allow_alternate_names=true`.
+
+**Proposed `set invoke node.vi` description:**
+> Selects which method an already-placed Invoke Node calls, since add_object_to_vi cannot pick a method by itself. First wire the target class's reference (VI, Application, Project, Control, etc.) into the Invoke Node's reference input, then call `get_available_methods` on that same object_id to list the class's methods. Set `method_name` to the **"Unique ID string"** field from that list (e.g. `"7d5"` for the Application class's Mass Compile method) — this is the reliable exact match. The "Data name"/display text (e.g. `"Mass Compile"`) is not the same string internally and will error (code 1077) unless `allow_alternate_names` is set to true, which enables a fuzzy fallback match instead of an exact one — prefer wiring in the Unique ID string over relying on that fallback. After this call succeeds, use `get_object_terminals` on the same object_id to discover the method's parameter and return terminals, then wire them with `connect_objects` or create controls with `create_control` as usual.
+
+**Proposed `get available methods.vi` description:**
+> Returns the available methods for an Invoke Node as a list of `{Unique ID string, Data name, Short name (localized), Long name (localized)}` objects. Use this before `set_invoke_node` to find the correct method — pass the **"Unique ID string"** value (not "Data name") as `set_invoke_node`'s `method_name` for a reliable exact match. Make sure a concrete-class reference (VI, Control, Application, etc.) is already wired into the Invoke Node's input, since the available methods depend on that class.
+
+---
+
 ## 🔴 `add subvi to vi.vi` — description is a copy-paste of `add object to vi.vi` and is factually wrong for this VI
 
 **Current** (identical to `add object to vi.vi`):
@@ -79,6 +97,15 @@ Legend: 🔴 needs a fix (wrong/misleading/incomplete) · 🟡 minor polish (wor
 
 **Proposed:**
 > Renames an object's label (its `Label.Text` property) — works on front-panel controls/indicators as well as block-diagram elements such as constants. Set `new_label_name` to the new text, and `label_visible` to show or hide the label.
+
+---
+
+## 🔴 `get broken vi list.vi` — description is missing entirely
+
+**Confirmed** via `get_vi_details`: `vi_description` is currently empty (`""`). The block diagram (also via `get_vi_details`) shows an Application reference wired into an Invoke Node with the method set to "Get Broken VI List", producing `error out` and a `Broken VI List` output indicator. `get_object_terminals` on the Invoke Node confirms the terminal names: `application reference` (in/out), `error in (no error)`/`error out`, and the `Get Broken VI List` method's own `Broken VI List` in/out pair. The VI takes no input besides the standard error cluster.
+
+**Proposed:**
+> Returns the list of VIs that are currently broken (would show a broken Run arrow) in the LabVIEW environment G-AI Core is running in, via the Application class's Get Broken VI List method. Takes no input besides the standard error cluster. Run this after creating or editing VIs with the other tools to check whether anything is now broken — the returned Broken VI List identifies each broken VI so it can be located and fixed.
 
 ---
 

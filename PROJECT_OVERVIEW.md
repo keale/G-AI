@@ -85,7 +85,7 @@ All tools follow the standard LabVIEW error pattern (`error in` → `error out`)
 | `get_available_properties` | Available property IDs of a property node | `propertynode_id` → `All Supported Properties` |
 | `get_object_terminals` | Terminal names, indices, types of a node/subVI | `object_id` → terminal list |
 | `get_structure_diagram` | Reference to a sub-diagram of a structure (loop/case) | `structure_id`, `index` → `diagram_id` |
-| `get_broken_vi_list` | Lists VIs currently broken in the LabVIEW environment, via the Application class's Get Broken VI List method | – → `Broken VI List` |
+| `get_broken_vi_list` | Lists VIs currently broken in the LabVIEW environment, via the Application class's Get Broken VI List method | – → `Broken VI List` (names), `Broken VI Paths` (full absolute paths, chainable into `get_vi_details`/`get_project`) |
 
 ### Write / Code Generation
 

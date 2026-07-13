@@ -102,10 +102,10 @@ Legend: 🔴 needs a fix (wrong/misleading/incomplete) · 🟡 minor polish (wor
 
 ## 🔴 `get broken vi list.vi` — description is missing entirely
 
-**Confirmed** via `get_vi_details`: `vi_description` is currently empty (`""`). The block diagram (also via `get_vi_details`) shows an Application reference wired into an Invoke Node with the method set to "Get Broken VI List", producing `error out` and a `Broken VI List` output indicator. `get_object_terminals` on the Invoke Node confirms the terminal names: `application reference` (in/out), `error in (no error)`/`error out`, and the `Get Broken VI List` method's own `Broken VI List` in/out pair. The VI takes no input besides the standard error cluster.
+**Confirmed** via `get_vi_details`: `vi_description` is currently empty (`""`). The block diagram (also via `get_vi_details`) shows an Application reference wired into an Invoke Node with the method set to "Get Broken VI List", feeding `error out` plus two outputs: the raw `Broken VI List` (names, e.g. `"broken.vi"` or `"ClassName.lvclass:broken.vi"` for class members) and, via a For Loop that opens each name (`Open VI Reference` → `Path` property → `Path To String`), a second array `Broken VI Paths` with the full absolute file path of each broken VI. The VI takes no input besides the standard error cluster.
 
 **Proposed:**
-> Returns the list of VIs that are currently broken (would show a broken Run arrow) in the LabVIEW environment G-AI Core is running in, via the Application class's Get Broken VI List method. Takes no input besides the standard error cluster. Run this after creating or editing VIs with the other tools to check whether anything is now broken — the returned Broken VI List identifies each broken VI so it can be located and fixed.
+> Returns the VIs that are currently broken (would show a broken Run arrow) in the LabVIEW environment G-AI Core is running in, via the Application class's Get Broken VI List method. Takes no input besides the standard error cluster. Run this after creating or editing VIs with the other tools to check whether anything is now broken. Returns two parallel arrays: `Broken VI List` (each broken VI's bare name, or `ClassName.lvclass:VIName.vi` if it's a class member) and `Broken VI Paths` (the same VIs' full absolute file paths) — pass an entry from `Broken VI Paths` directly as the `path` argument to `get_vi_details` or `get_project` to inspect a specific broken VI further.
 
 ---
 

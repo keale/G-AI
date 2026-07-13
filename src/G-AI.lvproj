@@ -32,6 +32,7 @@
 			<Item Name="get available methods.vi" Type="VI" URL="../tools/get available methods.vi"/>
 			<Item Name="get available objects.vi" Type="VI" URL="../tools/get available objects.vi"/>
 			<Item Name="get available properties.vi" Type="VI" URL="../tools/get available properties.vi"/>
+			<Item Name="get broken vi list.vi" Type="VI" URL="../tools/get broken vi list.vi"/>
 			<Item Name="get control.vi" Type="VI" URL="../tools/get control.vi"/>
 			<Item Name="get enum.vi" Type="VI" URL="../tools/get enum.vi"/>
 			<Item Name="get object terminals.vi" Type="VI" URL="../tools/get object terminals.vi"/>

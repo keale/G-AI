@@ -39,6 +39,7 @@
 			<Item Name="get project.vi" Type="VI" URL="../tools/get project.vi"/>
 			<Item Name="get structure diagram.vi" Type="VI" URL="../tools/get structure diagram.vi"/>
 			<Item Name="get vi details.vi" Type="VI" URL="../tools/get vi details.vi"/>
+			<Item Name="open vi.vi" Type="VI" URL="../tools/open vi.vi"/>
 			<Item Name="rename object.vi" Type="VI" URL="../tools/rename object.vi"/>
 			<Item Name="set invoke node.vi" Type="VI" URL="../tools/set invoke node.vi"/>
 			<Item Name="set property.vi" Type="VI" URL="../tools/set property.vi"/>

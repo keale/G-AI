@@ -18,8 +18,10 @@
 		</Item>
 		<Item Name="tests" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="point.ctl" Type="VI" URL="../../tests/point.ctl"/>
 			<Item Name="G-AI tests.lvlib" Type="Library" URL="../../tests/G-AI tests.lvlib"/>
 			<Item Name="Run_G-AI_Tests_CLI.vi" Type="VI" URL="../../tests/Run_G-AI_Tests_CLI.vi"/>
+			<Item Name="simple for.vi" Type="VI" URL="../../tests/simple for.vi"/>
 		</Item>
 		<Item Name="Tools" Type="Folder">
 			<Item Name="add object to vi.vi" Type="VI" URL="../tools/add object to vi.vi"/>
@@ -45,7 +47,10 @@
 			<Item Name="set property.vi" Type="VI" URL="../tools/set property.vi"/>
 		</Item>
 		<Item Name="ObjDescription.ctl" Type="VI" URL="../ObjDescription.ctl"/>
+		<Item Name="Terminal and Wire.ctl" Type="VI" URL="../../tests/Terminal and Wire.ctl"/>
+		<Item Name="Value of Constant.ctl" Type="VI" URL="../../tests/Value of Constant.ctl"/>
 		<Item Name="VI to JSON Graph Descr.vi" Type="VI" URL="../VI to JSON Graph Descr.vi"/>
+		<Item Name="Wire_Source_and_Sinks_IDs.ctl" Type="VI" URL="../Wire_Source_and_Sinks_IDs.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>

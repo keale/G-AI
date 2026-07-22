@@ -13,6 +13,13 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="keale_solutions" Type="Folder">
+			<Item Name="ObjDescription.ctl" Type="VI" URL="../keale_solutions/ObjDescription.ctl"/>
+			<Item Name="Terminal and Wire.ctl" Type="VI" URL="../keale_solutions/Terminal and Wire.ctl"/>
+			<Item Name="Value of Constant.ctl" Type="VI" URL="../keale_solutions/Value of Constant.ctl"/>
+			<Item Name="VI to JSON Graph Descr.vi" Type="VI" URL="../keale_solutions/VI to JSON Graph Descr.vi"/>
+			<Item Name="Wire_Source_and_Sinks_IDs.ctl" Type="VI" URL="../keale_solutions/Wire_Source_and_Sinks_IDs.ctl"/>
+		</Item>
 		<Item Name="Modules" Type="Folder">
 			<Item Name="G-AI Core.lvlib" Type="Library" URL="../G-AI Core/G-AI Core.lvlib"/>
 		</Item>
@@ -41,16 +48,12 @@
 			<Item Name="get project.vi" Type="VI" URL="../tools/get project.vi"/>
 			<Item Name="get structure diagram.vi" Type="VI" URL="../tools/get structure diagram.vi"/>
 			<Item Name="get vi details.vi" Type="VI" URL="../tools/get vi details.vi"/>
+			<Item Name="get vi json graph description.vi" Type="VI" URL="../tools/get vi json graph description.vi"/>
 			<Item Name="open vi.vi" Type="VI" URL="../tools/open vi.vi"/>
 			<Item Name="rename object.vi" Type="VI" URL="../tools/rename object.vi"/>
 			<Item Name="set invoke node.vi" Type="VI" URL="../tools/set invoke node.vi"/>
 			<Item Name="set property.vi" Type="VI" URL="../tools/set property.vi"/>
 		</Item>
-		<Item Name="ObjDescription.ctl" Type="VI" URL="../ObjDescription.ctl"/>
-		<Item Name="Terminal and Wire.ctl" Type="VI" URL="../../tests/Terminal and Wire.ctl"/>
-		<Item Name="Value of Constant.ctl" Type="VI" URL="../../tests/Value of Constant.ctl"/>
-		<Item Name="VI to JSON Graph Descr.vi" Type="VI" URL="../VI to JSON Graph Descr.vi"/>
-		<Item Name="Wire_Source_and_Sinks_IDs.ctl" Type="VI" URL="../Wire_Source_and_Sinks_IDs.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>

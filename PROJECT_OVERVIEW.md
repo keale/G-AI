@@ -20,13 +20,13 @@ G-AI.lvproj
 ├── tests
 │   ├── G-AI tests.lvlib         Caraya unit tests
 │   └── Run_G-AI_Tests_CLI.vi    CLI test runner
-├── Tools                        15 VIs – each is 1:1 an MCP tool (see section 5)
-│   ├── get project.vi / get vi details.vi / get control.vi / get enum.vi
-│   ├── get available objects.vi / get available properties.vi / get object terminals.vi
-│   ├── get structure diagram.vi
-│   ├── create new vi.vi / add object to vi.vi / add subvi to vi.vi
-│   ├── create control.vi / connect objects.vi / rename object.vi / set property.vi
-│   ├── cleanup vi.vi / close vi.vi / get broken vi list.vi
+├── Tools                        22 VIs – each is 1:1 an MCP tool (see section 6)
+│   ├── get project.vi / get vi details.vi / get vi json graph description.vi / get control.vi / get enum.vi
+│   ├── get available objects.vi / get available properties.vi / get available methods.vi / get object terminals.vi
+│   ├── get structure diagram.vi / get broken vi list.vi
+│   ├── open vi.vi / create new vi.vi / add object to vi.vi / add subvi to vi.vi
+│   ├── create control.vi / connect objects.vi / rename object.vi / set property.vi / set invoke node.vi
+│   ├── cleanup vi.vi / close vi.vi
 └── Dependencies (vi.lib)
     ├── Delacor QMH classes       DQMH framework (Message Queue, Module Admin)
     ├── jg_mcp MCP Server.lvlib   generic MCP/JSON-RPC server (from the submodule)
@@ -78,11 +78,13 @@ All tools follow the standard LabVIEW error pattern (`error in` → `error out`)
 | Tool | Purpose | Key inputs/outputs |
 |---|---|---|
 | `get_project` | Reads the XML content of a `.lvproj`/`.lvlib`/`.lvclass` file | `path` → `text` (XML) |
-| `get_vi_details` | Description + block-diagram screenshot of a VI | `path` → `vi_description`, `vi_blockdiagram` |
+| `get_vi_details` | Description + block-diagram screenshot of a VI (screenshot shows only the front case of a multi-case structure) | `path` → `vi_description`, `vi_blockdiagram` |
+| `get_vi_json_graph_description` | Recursively scans a VI's block diagram (including nested structures like loops/case structures) and returns a complete JSON graph: all GObjects, node-level wires, terminal-level wire mapping, and constant values — the most complete alternative to `get_vi_details`'s screenshot when a structure has multiple cases | `vi_path` → JSON with four arrays: Objects, Wires, Terminal-Wire mapping, Constants |
 | `get_control` | Front-panel screenshot of a `.ctl` (typedef/custom control) | `path` → `control_frontpanel_image` |
 | `get_enum` | Elements of a typedef'd enum inside a `.ctl` file | `path` → `Enum Elements` |
 | `get_available_objects` | List of all object names that can be placed on FP/BD | – → `available_objects` |
 | `get_available_properties` | Available property IDs of a property node | `propertynode_id` → `All Supported Properties` |
+| `get_available_methods` | Lists the methods available on an already-wired Invoke Node (depends on the concrete class reference wired into it, e.g. VI/Application/Control) — use before `set_invoke_node` | `invoke_node_id` → method list (Unique ID string, Data name, localized short/long name) |
 | `get_object_terminals` | Terminal names, indices, types of a node/subVI | `object_id` → terminal list |
 | `get_structure_diagram` | Reference to a sub-diagram of a structure (loop/case) | `structure_id`, `index` → `diagram_id` |
 | `get_broken_vi_list` | Lists VIs currently broken in the LabVIEW environment, via the Application class's Get Broken VI List method | – → `Broken VI List` (names), `Broken VI Paths` (full absolute paths, chainable into `get_vi_details`/`get_project`) |
@@ -91,6 +93,7 @@ All tools follow the standard LabVIEW error pattern (`error in` → `error out`)
 
 | Tool | Purpose | Key inputs/outputs |
 |---|---|---|
+| `open_vi` | Opens an existing VI (optionally showing its block diagram) and returns a `vi_id` — the entry point for running edit tools against an existing VI, analogous to `create_new_vi` for brand-new ones | `vi_path`, `show_vi` → `vi_id` |
 | `create_new_vi` | Creates a new VI, optionally opens the block-diagram window | `show_vi` → `vi_id` |
 | `add_object_to_vi` | Places an element (or, via `subvi_path`, a subVI/typedef) on FP/BD/structure | `vi_id`, `object_name`/`subvi_path`, `position_x/y` → `ctl id` |
 | `add_subvi_to_vi` | Special case of `add_object_to_vi` for subVI calls | analogous, via `subvi_path` |
@@ -98,6 +101,7 @@ All tools follow the standard LabVIEW error pattern (`error in` → `error out`)
 | `connect_objects` | Wires two terminals on the block diagram | `from_object_id`+index, `to_object_id`+index |
 | `rename_object` | Changes an object's label text/visibility | `id`, `new_label_name`, `label_visible` |
 | `set_property` | Sets/reads properties of a property node | `propertynode_id`, `property_ids[]`, `properties_iswrite[]` |
+| `set_invoke_node` | Selects which method an already-placed Invoke Node calls (`add_object_to_vi` can place the node but can't pick a method); `method_name` must be the Unique ID string from `get_available_methods`, not the display name | `object_id`, `method_name` |
 | `cleanup_vi` | Cleans up the block diagram (`BD.CleanUp`) | `vi_id` |
 | `close_vi` | Closes the front-panel window (deletes unsaved VIs!) | `vi_id` |
 
